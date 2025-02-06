@@ -155,7 +155,7 @@ button:hover {
         color: #4DA1A9;
         border: solid 3px black;
         border-radius: 12px;
-        width: 556px;
+        min-width: 500px;
         display: flex;
         flex-direction: column;
         padding: 20px;
