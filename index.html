@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Color Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>GUESS THE COLOR</header>
+        <content id="content" class="">
+            <div class="status">
+                <span id="level">Level 0</span>
+                <span>Score: <span id="score" data-testid="score">0</span>/10</span>
+            </div>
+            <div id="colorBox" data-testid="colorBox"></div>
+            <div id="gameStatus" data-testid="gameStatus">
+            </div>
+            <div id="colorOption">
+                <div>
+                    <button id="1" class="colorOption " data-testid="colorOption"></button>
+                    <button id="2" class="colorOption" data-testid="colorOption"></button>
+                    <button id="3" class="colorOption " data-testid="colorOption"></button>
+                </div>
+                <div>
+                    <button id="4" class="colorOption " data-testid="colorOption"></button>
+                    <button id="5" class="colorOption " data-testid="colorOption"></button>
+                    <button id="6" class="colorOption " data-testid="colorOption"></button>
+            </div>
+            </div>
+            <div id="contentFooter">
+                <button id="startOver">Start Over</button>
+                <button id="next">Next</button>               
+            </div>
+
+        </content>
+        <div id="endGame" class=" hidden">
+            <span>Game Over</span><br>
+            <span id="result"></span><br>
+            <button id="newGameButton" data-testid="newGameButton">New Game</button>
+        </div>
+        <footer>
+            <h1 id="instHdr">Instructions</h1>
+            <p id="gameInstructions" class=" hidden" data-testid="gameInstructions">From the 6 color palettes in a row choose the<br>
+                one you think matches with the Big Window.<br>
+                After each guess press next to go to the<br>
+                next level 
+            </p>
+        </footer>
+        <script src="App.js"></script>
+    </body>
+    </html>

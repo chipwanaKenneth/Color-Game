@@ -1,0 +1,260 @@
+body {
+    background-color: #2E5077;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+content {  
+    background-color: #F6F4F0;
+    color: #4DA1A9;
+    border: solid 3px black;
+    border-radius: 12px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+#colorBox {
+    background-color: #F7CFD8;
+    border-radius: 12px;
+    height: 250px;
+    width: 100%;
+
+}
+
+#gameStatus {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#colorOption {
+    flex-direction: column;
+    padding: 10px 0px;
+}
+#colorOption div{
+    display: flex;
+}
+
+.colorOption{
+    height: 35px;
+    width: 75px;
+    background-color: #2c689d;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+#contentFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#newGameButton {
+    background-color: #ff0000bf;
+    font-size: .8em;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+#startOver{
+    background-color: #ff0000bf;
+    font-size: .8em;
+    border: none;
+    padding: 5px;
+    border-radius: 8px; 
+}
+
+#next {
+    background-color: #04bf04ad;
+    font-size: .8em;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#endGame {
+    background-color: #F6F4F0;
+    color: #4DA1A9;
+    border: solid 3px black;
+    border-radius: 12px;
+    min-width: 200px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+#instHdr:hover{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #2E5077;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    header{
+        padding-top: 100px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2em;
+    }
+    .status {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    content {  
+        background-color: #F6F4F0;
+        color: #4DA1A9;
+        border: solid 3px black;
+        border-radius: 12px;
+        min-width: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 2em;
+    }
+    
+    #colorBox {
+        background-color: #F7CFD8;
+        border-radius: 12px;
+        height: 250px;
+        width: 100%;
+    
+    }
+    
+    #gameStatus {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    #colorOption {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+    
+    .colorOption{
+        height: 35px;
+        min-width: 75px;
+        background-color: #2c689d;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    #contentFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    
+    #newGameButton {
+        background-color: #ff0000bf;
+        font-size: .8em;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    #startOver{
+        background-color: #ff0000bf;
+        font-size: .8em;
+        border: none;
+        padding: 5px;
+        border-radius: 8px; 
+    }
+    
+    #next {
+        background-color: #04bf04ad;
+        font-size: .8em;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    #endGame {
+        background-color: #F6F4F0;
+        color: #4DA1A9;
+        border: solid 3px black;
+        border-radius: 12px;
+        min-width: 500px;
+        padding: 20px;
+        font-size: 2em;
+    }
+    
+    h1{
+        font-weight: bold;
+    }
+    
+    p{
+        font-size: 1.5em;
+    }
+    
+    
+    button:hover {
+        cursor: pointer;
+    }
+    #instHdr:hover{
+        cursor: pointer;
+    }
+    .hidden{
+        display: none;
+    }
+    .visible{
+        display: flex;
+    }
+}
+
+
+
+
